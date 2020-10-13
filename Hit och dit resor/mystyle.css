@@ -1,83 +1,189 @@
+
+
 body {
+
     background-color: rgb(92, 83, 83);
+
   }
 
 
+
+/* Typografi */
+ h2{
+     font-weight: 100;
+     font-size: 38px;
+     color: rgb(0, 132, 255)
+ }
+
+ h3{
+background: rgb(95, 95, 156);
+padding: 10px;
+color: black;
+text-transform: uppercase;
+font-family:  'oswald' , sans-serif;
+letter-spacing: 1px; 
+margin: 0px;
+ }
   
+
   /* LAYOUT / STRUKTUR */
+
   .wrapper {
-      width: 90%;
-    max-width: 2000px;
-    min-height: 1000px; 
+
+      max-width: 90%;
+
+    max-width: 900px;
+
+    min-height: 1500px; 
+
     background: rgb(255, 255, 255); 
 
+
+
     /* Lägg wrappern i mitten av sida */
+
     margin-left: auto;
+
     margin-right: auto;
+
   }
+
+
 
   header{
+
  
+
       height:160px;
+
   }
 
+.resmal{
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+}
+.resmal img{
+    width: 100%
+}
   .logo{
+
     
+
       width: 35%;
 
+
+
       float:left;
+
   }
+
 .logo img{
+
 border-radius: 35px;
+
 width: 100px;
+
 }
+
   nav.meny{
+
  
+
       width: 55%;
+
       float:right;
+
       margin-top: 25px;
+
   }
+
+
 
 .imagesbar{
+
     background: rgb(255, 255, 255);
-background-image: url(../buss2.png);
+
+background-image:url(../buss2.png.jpg);
+
 background-size: 100%;
+
+
     background-repeat: no-repeat;
+
     width: auto;
+
     height: 600px;
 
+
+
     
+
 }
+
  
+
   /* Meny */
+
   nav{}
 
+
+
   nav ul{
+
       list-style: none;
+
       padding: 0px;
+
       text-align: right;
 
+
+
   }
+
+
 
   nav li{
+
       display:inline;
+
     margin-left: 10px;  
 
+
+
   }
+
+
 
   nav a{
-      text-decoration: none;
-      color: rgb(53, 52, 52);
+
+    font-family:  'oswald' , sans-serif;
+    text-decoration: none;
+
+      color: black;
+
       font-size: 14px;
+
       text-transform: uppercase;
+
       background: white;
+
       padding: 10px;
+
       padding-bottom: 8px;
+
       border-radius: 5px;
+
   }
 
+
+
   nav a:hover{
+
       font-size: 15px;
-      background: rgb(115, 10, 185);
+
+      background: rgb(25, 51, 168);
+
       color: white;
+
   }
