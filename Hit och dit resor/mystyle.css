@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     padding: 0px;
     margin: 0px;
+    height: 960px;
   }
 
 
@@ -14,9 +15,13 @@ body {
 /* Typografi */
  h2{
      font-weight: 100;
-     font-size: 38px;
+     font-size: 35px;
      color:darkblue;
+    
  }
+
+.map h2{
+margin-left: -245px;}
 
  h3{
 background: rgb(95, 95, 156);
@@ -28,6 +33,11 @@ letter-spacing: 1px;
 margin: 0px;
 margin-top: -4px;
  }
+ .footerbox h3{
+   background: none;
+   padding: 0px;
+   padding-bottom: 10px;
+ }
  .resmal_info {
      font-size: 0.9em;
      line-height: 1.5em;
@@ -37,15 +47,15 @@ margin-top: -4px;
 
   .wrapper {
 
-      max-width: 90%;
+    width: 90%;
 
-    max-width: 1000px;
+    max-width: 960px;
 
     min-height: 1500px; 
 
     background: rgb(255, 255, 255); 
 
-
+    min-width: 400px;
 
     /* Lägg wrappern i mitten av sida */
 
@@ -76,7 +86,8 @@ margin-top: -4px;
 
 footer{
   background-color: rgb(130, 130, 170); 
-  background-image: url(../back.png);
+  background-image: url(../buss2.png.jpg);
+
    background-size: 100%;
    background-repeat: no-repeat ;
    width: auto;
@@ -87,7 +98,7 @@ footer{
    
 }
 .inner_footer{
-  background: green;
+
   width: 960px;
   height: 320px;
   margin-left: auto;
@@ -95,15 +106,20 @@ footer{
 }
 
 
+
 .footerbox{
   width: 32%;
   height: 300px;
   margin-left: 1%;
 
-background: red;
+
 float: left;
+color: white;
+font-size: 18px;
 
-
+}
+.footerbox img{
+  margin-right: 10px;
 }
 
 
@@ -146,7 +162,7 @@ width: 100px;
 
     background: rgb(255, 255, 255);
 
-background-image:url(../buss2.png);
+background-image:url(../buss2.png.jpg);
 
 background-size: 100%;
 
